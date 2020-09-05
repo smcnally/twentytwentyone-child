@@ -1,6 +1,6 @@
 /*
 Theme Name: 2020 Child for meanbusiness.com
-Theme URI: http//meanbusiness.com/twentytwenty-child/
+Theme URI: http//meanbusiness.com/twentytwenty-mbiz-child/
 description: Twenty Twenty Child Theme
 Author: smcnally
 Author URI: https://meanbusiness.com
@@ -9,14 +9,49 @@ Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
-Text Domain: 2020meanbusinesschild 
+Text Domain: 2020meanbusinesschild
 */
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,900);
 
-body {
-    font-family: Ubuntu, sans-serif;
-  }
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
 
-h1 h2 h3 p {
-    font-family: Ubuntu;
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+address,
+big,
+cite,
+code,
+em,
+font,
+img,
+small,
+strike,
+sub,
+sup,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tr,
+th,
+td {
+    font-family: 'Ubuntu', sans-serif;
 }
