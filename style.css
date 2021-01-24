@@ -9,12 +9,13 @@ Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: accessibility-ready
-Text Domain: twentytwentyone-child
+Text Domain: twentytwentyonechild
 */
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,900);
 
 html {
     font-family: 'Ubuntu', sans-serif;
+    color: #000000;
 }
 
 body {
