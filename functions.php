@@ -74,3 +74,23 @@ function remove_my_post_metaboxes() {
   }
 }
 add_action('admin_menu','remove_my_post_metaboxes');
+
+// 211026 - login - white bg and Remember Me
+function login_page_white_bg() { ?>
+    <style type="text/css">
+        body.login {
+            background-color:#ffffff !important;
+            }
+    </style>
+<?php }
+
+add_action( 'login_enqueue_scripts', 'login_page_white_bg' );
+
+function login_checked_remember_me() {
+    add_filter( 'login_footer', 'rememberme_checked' );
+    }
+    add_action( 'init', 'login_checked_remember_me' );
+    
+    function rememberme_checked() {
+    echo "<script>document.getElementById('rememberme').checked = true;</script>";
+    }

@@ -13,46 +13,11 @@ Text Domain: twentytwentyonechild
 */
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,900);
 
-html {
-    font-family: 'Ubuntu', sans-serif;
-    color: #000000;
+/* Variables */
+:root {
+
+	/* Font Family */
+	--global--font-primary: var(--font-headings, -apple-system, BlinkMacSystemFont, Ubuntu, "Segoe UI", Roboto, Oxygen-Sans, Cantarell, "Helvetica Neue", sans-serif);
+	--global--font-secondary: var(--font-base, -apple-system, BlinkMacSystemFont, Ubuntu, "Segoe UI", Roboto, Oxygen-Sans, Cantarell, "Helvetica Neue", sans-serif);
 }
 
-body {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-address,
-big,
-cite,
-code,
-em,
-font,
-img,
-small,
-strike,
-sub,
-sup,
-li,
-ol,
-ul,
-fieldset,
-form,
-label,
-legend,
-button,
-table,
-caption,
-tr,
-th,
-td {
-    font-family: 'Ubuntu', sans-serif;
-}
